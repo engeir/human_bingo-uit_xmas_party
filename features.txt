@@ -1,0 +1,56 @@
+has never eaten \n at McDonald's.
+has never broken \n a bone.
+has never broken \n a leg. 
+gets seasick.
+likes pineapple \n on pizza.
+is willing to sing \n a song.
+can recite a poem \n from memory.
+has been in a \n newspaper article.
+speaks 4 or more \n languages fluently.
+does have a \n favourite YouTuber.
+has a YouTube \n channel.
+is a vegetarian.
+uses hair contidioner.
+does not use hair \n conditioner.
+is proficient with \n MS Excel.
+prefers Matlab to \n Python.
+has milked a cow.
+does have a driving \n license.
+does not have \n a driving license.
+has no siblings.
+has 4 or more \n siblings.
+has a collection \n of something.
+was born in \n a leap year.
+wears a wristwatch.
+has a attended \n a life concert of \n their favorite band.
+can solve \n Rubik's cube.
+has written a book \n (besides a thesis). 
+does a martial art.
+has a tattoo. 
+has a pet reptile.
+has gone scuba \n diving.
+can play a musical \n instrument.
+has won a sports \n competition.
+has a phobia of \n a specific animal.
+has never broken \n a phone screen.
+was employed in \n 4 or more countries.
+has never owned \n a car.
+can recite the \n lyrics of \n a rap song.
+has built a piece \n of furniture \n from scratch.
+has hiked to the \n top of a volcano.
+has been part \n of a research \n expedition.
+has participated \n in a hackathon.
+missed a plane.
+has a useless \n talent.
+gives nicknames \n to home appliances.
+is left handed.
+has tried the Mentos \n in soda experiment.
+was arrested.
+does not have \n a smartphone.
+used a typewriter \n machine.
+has a nickname.
+has never slept \n in a tent.
+prefers tea \n to coffee.
+likes to chew \n a chewing gum.
+swallows toothpaste.
+can do headstand.
