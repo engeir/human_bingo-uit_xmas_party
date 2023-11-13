@@ -1,0 +1,7 @@
+name: human_bingo
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - matplotlib
