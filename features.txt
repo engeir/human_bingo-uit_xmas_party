@@ -22,7 +22,7 @@ has 4 or more \n siblings.
 has a collection \n of something.
 was born in \n a leap year.
 wears a wristwatch.
-has a attended \n a life concert of \n their favorite band.
+has attended \n a live concert of \n their favorite band.
 can solve \n Rubik's cube.
 has written a book \n (besides a thesis). 
 does a martial art.
@@ -54,3 +54,12 @@ prefers tea \n to coffee.
 likes to chew \n a chewing gum.
 swallows toothpaste.
 can do headstand.
+is married.
+likes olives.
+is nordic but \n not Norwegian.
+has eaten an insect.
+is wearing jeans right now.
+uses a physical \n calculator.
+is Norwegian.
+speaks Norwegian.
+

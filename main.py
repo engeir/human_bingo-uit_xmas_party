@@ -65,4 +65,4 @@ def main(n=25, dim=5):
 
 #%%
 if __name__ == "__main__":
-    main(n=50, dim=5)
+    main(n=18, dim=5)
