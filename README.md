@@ -3,4 +3,4 @@ A simple tool for generating human bingo tiles, as for name-exchange introductio
 
 Feel free to use the example ones in /fig, or create new ones calling "python main.py". 
 
-By default 5*5 grid is populated with the features from "features.txt" without repetition. The example features should work for a general group. Be careful, line breaks are needed after 20 characters.
+By default 5*5 grid is populated with the features from "features.txt" without repetition. The example features should work for a general group. Be careful, lines are broken after 20 characters and can only span five lines.

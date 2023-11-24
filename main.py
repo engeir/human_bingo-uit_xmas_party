@@ -1,3 +1,4 @@
+import textwrap
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 import numpy as np
@@ -49,9 +50,11 @@ def draw_grid(n):
     features = np.random.choice(load_features(),size=25,replace=False)
     for row in range(n):
         for col in range(n):
+            if (long_string := textwrap.fill(features[(row) * n + (col)], 20)).count("\n") > 4:
+                raise OverflowError(f"{repr(long_string)} wraps to more than 5 lines, so it doesn't fit!")
             ax.text(row/n+1/(2*n),
                     col/n+1/(4*n),
-                    features[(row)*n+(col)].replace("\\n","\n"),
+                    textwrap.fill(features[(row) * n + (col)], 20),
                     ha="center",
                     va="center",
                     fontsize="x-small")
