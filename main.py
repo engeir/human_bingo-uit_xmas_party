@@ -1,4 +1,5 @@
 import textwrap
+import glob
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 import numpy as np
@@ -19,7 +20,7 @@ def load_features(file_path="features.txt"):
 
 
 def draw_grid(n):
-    fig, ax = plt.subplots(figsize=(n+1,n+1))
+    fig, ax = plt.subplots(figsize=(n+1,n+1.3))
     ax.set_aspect('equal')  # Ensure the plot is a square
     ax.set_xlim(0,1)
     ax.set_ylim(0,1)
@@ -59,13 +60,18 @@ def draw_grid(n):
                     va="center",
                     fontsize="x-small")
     fig.tight_layout()
+    rules = "Rules: Maximum one person per row, column or diagonal"
+    fs = "medium"
+    ax.set_title(rules, fontsize=fs)
     fig.savefig(os.path.join("figs",str(np.random.randint(1000)).zfill(4)+".png"), format='png', dpi=200)
     plt.close()
 
 def main(n=25, dim=5):
+    files = glob.glob("figs/*")
+    for f in files:
+        os.remove(f)  
     for i in range(n):
         draw_grid(dim)
 
-#%%
 if __name__ == "__main__":
     main(n=18, dim=5)
