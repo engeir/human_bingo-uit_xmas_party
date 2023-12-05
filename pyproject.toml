@@ -106,11 +106,9 @@ docstring-quotes = "double"
 numpy = "np"
 scipy = "sp"
 xarray = "xr"
-ensemble_run_analysis = "era"
 
 [tool.ruff.isort]
 case-sensitive = true
-known-local-folder = ["src", "ensemble_run_analysis"]
 
 [tool.isort]
 multi_line_output = 3

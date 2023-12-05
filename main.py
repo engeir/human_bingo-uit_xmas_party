@@ -66,7 +66,13 @@ def draw_grid(n):
     fig.savefig(os.path.join("figs",str(np.random.randint(1000)).zfill(4)+".png"), format='png', dpi=200)
     plt.close()
 
+def verify_featrues():
+    for feat in load_features():
+        if (long_string := textwrap.fill(feat, 20)).count("\n") > 4:
+            raise OverflowError(f"{repr(long_string)} wraps to more than 5 lines, so it doesn't fit!")
+
 def main(n=25, dim=5):
+    verify_featrues()
     files = glob.glob("figs/*")
     for f in files:
         os.remove(f)  
